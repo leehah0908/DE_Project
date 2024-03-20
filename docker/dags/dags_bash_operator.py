@@ -29,4 +29,5 @@ with DAG(
         bash_command = "echo $HOSTNAME",
     )
 
+    # task 수행 순서
     bash_t1 >> bash_t2
